@@ -1,0 +1,9 @@
+var nomeAnonimizado = "Anonimizado";
+var emailAnonimizado = "anonimizado@example.com";
+var telefoneAnonimizado = "(xx)XXXXX-XXXX";
+var enderecoAnonimizado = "*****";
+var cpfAnonimizado = "xxxxxxxxxxx";
+
+
+
+
