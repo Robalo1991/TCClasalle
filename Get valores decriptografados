@@ -1,0 +1,11 @@
+var decriptografa_cpf='vazio';
+var decriptografa_nome='vazio';
+var decriptografa_endereco='vazio';
+var decriptografa_email='vazio';
+var decriptografa_telefone='vazio';
+
+decriptografa_cpf=Packages.org.pentaho.di.core.encryption.Encr.decryptPassword(cpf);
+decriptografa_nome=Packages.org.pentaho.di.core.encryption.Encr.decryptPassword(nk_nome);
+decriptografa_endereco=Packages.org.pentaho.di.core.encryption.Encr.decryptPassword(endereco);
+decriptografa_email=Packages.org.pentaho.di.core.encryption.Encr.decryptPassword(email);
+decriptografa_telefone=Packages.org.pentaho.di.core.encryption.Encr.decryptPassword(telefone);
