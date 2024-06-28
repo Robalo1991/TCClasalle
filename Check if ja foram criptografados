@@ -1,0 +1,23 @@
+var decCpf=cpf;
+var decNome=nk_nome;
+var decEndereco=endereco;
+var decEmail=email;
+var decTelefone=telefone;
+
+function isEncrypted(text) {
+  // Tente descriptografar a senha
+  try {
+    var decryptedText = Encr.decryptPassword(text);
+    // Se a descriptografia for bem-sucedida e a senha descriptografada não for a mesma que a criptografada,
+    // significa que o texto estava criptografado corretamente.
+    return decryptedText !== text;
+  } catch (e) {
+    // Se ocorrer um erro durante a descriptografia, o texto não está criptografado corretamente
+    return false;
+  }
+}
+
+var isCpfEnc = isEncrypted(decCpf);
+var isNomeEnc = isEncrypted(decNome);
+var isEmailEnc = isEncrypted(decEmail);
+var isTelefoneEnc = isEncrypted(decTelefone);
