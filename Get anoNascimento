@@ -1,0 +1,4 @@
+
+var dataNascimento = year(data_nascimento);
+var anoNascimento = new Date(dataNascimento, 1,1);
+
